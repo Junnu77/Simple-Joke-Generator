@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./v960-ning-30.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    height: 80%;
+    width: 70%;
+    box-shadow: 10px 5px 5px rgb(109, 72, 72);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.up-part{
+    height: 22%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+.up-part p{
+    font-size: 30px;
+    margin-right: 28px;
+    text-align: center;
+}
+.up-part input{
+    width: 18px;
+    height: 18px;
+}
+.up-part label{
+    font-size: 20px;
+}
+.up-part img{
+    height: 140px;
+}
+.filter-section{
+    height: 100%;
+    width: 70%;
+    /* background-color:aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: 28px;
+}
+.middle-part{
+    height: 56%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 20px;
+}
+.down-part{
+    height: 22%;
+    width: 100%;
+    /* background-color:aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.down-part button{
+    height: 40px;
+    width: 130px;
+    background-color:rgb(19, 19, 44);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
